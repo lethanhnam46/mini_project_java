@@ -1,0 +1,79 @@
+.root{
+   -fx-background-image: url("pic/backimage.jpg");
+}
+
+.topguide{
+   -fx-font-size: 30px;
+   -fx-font-family: "Arial";
+   //-fx-text-fill: blue;
+   -fx-text-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, purple 0%, green 50%);
+   -fx-stroke: yellow;
+   -fx-font-weight: bolder;
+}
+
+.topmenu{
+   -fx-font-size: 20px;
+   -fx-font-family: "Arial";
+   -fx-fill: linear-gradient(to right, lime, green, #f06d06, rgb(255, 255, 0));
+   //-fx-font-weight: bolder;
+}
+
+.topmenuselected{
+   -fx-underline: true;
+   -fx-font-size: 20px;
+   -fx-font-family: "Arial";
+   -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, purple 0%, green 50%);
+   -fx-stroke: yellow;
+   -fx-stroke-width: 1;
+   -fx-font-weight: bolder;
+}
+
+.alertstyle{
+   -fx-font-size: 15px;
+   -fx-font-family: "Segoe UI";
+   -fx-text-fill: yellow;
+   -fx-underline: true;
+}
+
+.authorclicked{
+   -fx-font-size: 15px;
+   -fx-font-family: "Segoe UI";
+   -fx-text-fill: brown;
+   -fx-underline: true;
+}
+
+.button{
+   -fx-text-fill: white;
+   -fx-font-family: "Verdana";
+   -fx-font-weight: bold;
+   -fx-background-color: linear-gradient(brown, grey);
+   -fx-effect: dropshadow(three-pass-box, rgba(255,250,250,0.6), 1, 0.5, 2, 2);
+}
+
+.textstyle{
+   -fx-font-size: 15px;
+   -fx-font-family: "Verdana";
+   -fx-font-weight: bold;
+   -fx-fill: lime;
+}
+
+.startselectionbox{
+   -fx-fill: firebrick;
+   -fx-stroke: lime;
+   -fx-stroke-width: 2;
+   -fx-arc-height: 20.0;
+   -fx-arc-width: 20.0;
+   -fx-effect: dropshadow(three-pass-box, rgba(255,255,0,0.5), 1, 1.0, 3, 4);
+}
+
+.menu-bar {
+    -fx-background-color: derive(grey, 20%);
+    -fx-selection-bar: derive(skyblue, 20%);
+}
+
+.menu-bar .label {
+    -fx-font-size: 20px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: blue;
+    -fx-opacity: 0.9;
+}
